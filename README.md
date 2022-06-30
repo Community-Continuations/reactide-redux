@@ -1,3 +1,7 @@
+# This is a fork, we will maintain the project in its current state.
+We will keep this software alive, with security patches. The software however, will stay exactly how you remember it!
+# The Goal
+The goal is to maintain this software, with minimal rebranding just to avoid any legal issues.
 <p align="center"><a href='http://reactide.io/'><img alt="reactide" src="https://i.imgur.com/HRNmuJs.png" width="30%"></a></p>
 
 [![GitHub license](https://img.shields.io/github/license/reactide/reactide)](https://github.com/reactide/reactide/blob/master/LICENSE.txt) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/reactide/reactide/pulls)
