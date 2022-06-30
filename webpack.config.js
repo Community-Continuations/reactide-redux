@@ -60,7 +60,10 @@ module.exports = {
     ]
   },
   plugins: [
-    new MonacoWebpackPlugin(),
+    new MonacoWebpackPlugin({
+      features: ['!gotoSymbol'],
+      languages: [ '!abap' ],
+    }),
   ],
   devServer: {
     port: 8081
