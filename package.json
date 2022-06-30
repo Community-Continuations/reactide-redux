@@ -1,8 +1,8 @@
 {
-  "name": "reactide",
+  "name": "reactide-redux",
   "email": "j_hart18@yahoo.com",
-  "productName": "Reactide",
-  "version": "3.0.0",
+  "productName": "Reactide Redux",
+  "version": "3.0.0-redux",
   "description": "",
   "main": "./main/main.js",
   "scripts": {

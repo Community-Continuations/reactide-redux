@@ -57,7 +57,7 @@ const installExtensions = async () => {
     height: 800,
     minWidth: 604,
     minHeight: 283,
-    title: 'Reactide',
+    title: 'Reactide Redux',
     show: false
   });
 
