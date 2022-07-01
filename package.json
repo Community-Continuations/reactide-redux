@@ -48,7 +48,7 @@
     "font-awesome": "^4.7.0",
     "mocha": "^3.2.0",
     "monaco-editor": "^0.14.3",
-    "monaco-editor-webpack-plugin": "^1.5.4",
+    "monaco-editor-webpack-plugin": "latest",
     "prop-types": "^15.5.8",
     "react": "^16.6.0",
     "react-addons-test-utils": "^15.4.2",
@@ -62,8 +62,8 @@
     "spectron": "^3.6.2",
     "style-loader": "^0.23.1",
     "update-electron-app": "^1.5.0",
-    "webpack-dev-server": "^3.1.10",
-    "webpack-electron-packager": "^1.0.0",
+    "webpack-dev-server": "latest",
+    "webpack-electron-packager": "latest",
     "worker-loader": "^2.0.0",
     "xterm": "^3.14.5"
   },
@@ -72,8 +72,8 @@
     "electron": "^3.1.13",
     "electron-builder": "^20.36.2",
     "file-loader": "^4.1.0",
-    "webpack": "^4.25.1",
-    "webpack-cli": "^3.3.6"
+    "webpack": "latest",
+    "webpack-cli": "latest"
   },
   "build": {
     "appId": "io.reactide",
