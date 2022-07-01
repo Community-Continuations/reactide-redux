@@ -1,6 +1,6 @@
 'use strict';
 require('update-electron-app')({
-  repo: 'khalid050/reactide',
+  repo: 'Community-Continuations/reactide-redux',
   updateInterval: '5 minutes',
   logger: require('electron-log')
 })
@@ -13,7 +13,7 @@ const fs = require('fs');
 const menuTemplate = require('./menus/mainMenu');
 const registerShortcuts = require('./localShortcuts');
 const registerIpcListeners = require('./ipcMainListeners');
-const devtron = require('devtron');
+// const devtron = require('devtron');
 const { exec } = require('child_process');
 require('electron-debug')();
 
@@ -29,7 +29,7 @@ const projInfo = {
   mainEntry: '',
   reactEntry: ''
 };
-const installExtensions = async () => {
+/*const installExtensions = async () => {
   devtron.install();
   const installer = require('electron-devtools-installer');
   const extensions = ['REACT_DEVELOPER_TOOLS', 'REDUX_DEVTOOLS'];
@@ -41,7 +41,7 @@ const installExtensions = async () => {
       console.log(`Error installing ${name} extension: ${e.message}`);
     }
   }
-};
+}; */
  
  const nativeImage = require('electron').nativeImage;
  let image = nativeImage.createFromPath(__dirname + '/icons/icon.icns');
@@ -68,9 +68,6 @@ const installExtensions = async () => {
   const menu = Menu.buildFromTemplate(menuTemplate(win));
   Menu.setApplicationMenu(menu);
 
-  // toggle devtools only if development
-  await installExtensions();
-  
   // put Main window instance in global variable for use in other modules
   global.mainWindow = win;
 
